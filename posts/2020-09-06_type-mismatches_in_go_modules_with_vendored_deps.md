@@ -12,9 +12,9 @@ I ran into this behavior while working on a project and it struck me as odd. It 
  $ go run .
 # github.com/komish/vendor-demo-mod-1
 ./main.go:16:28: 
-		cannot use c (type "github.com/komish/vendor-demo-mod-3/pkg/colors".Color) 
-		as type "github.com/komish/vendor-demo-mod-2/pkg/vehicles/vendor/github.com/komish/vendor-demo-mod-3/pkg/colors".Color
-		in argument to vehicles.GetSedan
+ cannot use c (type "github.com/komish/vendor-demo-mod-3/pkg/colors".Color) 
+ as type "github.com/komish/vendor-demo-mod-2/pkg/vehicles/vendor/github.com/komish/vendor-demo-mod-3/pkg/colors".Color
+ in argument to vehicles.GetSedan
 ```
 
 ## How We Get Here
@@ -46,8 +46,8 @@ The **vendor-demo-mod-3** repository exposes a package "colors". The package "co
 ```go
 // Color is the type for a color which contains english and spanish names for that color.
 type Color struct {
-	NameEnglish string
-	NameSpanish string
+    NameEnglish string
+    NameSpanish string
 }
 ```
 
@@ -61,20 +61,20 @@ package vehicles
 
 // Vehicle represents a vehicle of some sort.
 type Vehicle struct {
-	Type   string
-	Wheels uint8
-	Seats  uint8
-	Color  colors.Color
+    Type   string
+    Wheels uint8
+    Seats  uint8
+    Color  colors.Color
 }
 
 // GetSedan returns a sedan vehicle that seats 4 in the color provided.
 func GetSedan(color colors.Color) Vehicle {
-	return Vehicle{
-		Type:   "sedan",
-		Wheels: 4,
-		Seats:  4,
-		Color:  color,
-	}
+    return Vehicle{
+        Type:   "sedan",
+        Wheels: 4,
+        Seats:  4,
+        Color:  color,
+    }
 }
 // ... other functions truncated for brevity ...
 ```
@@ -132,12 +132,8 @@ Finally, the **vendor-demo-mod-1** repository is the equivalent of "My Program",
 
 As written above (which is also how it exists in the referenced repository), the program will execute without issue. However, if you comment out line 19 and uncomment line 16, we run into the error mentioned at the top of this article.
 
-``` $ go run .
-# github.com/komish/vendor-demo-mod-1
-./main.go:16:28: 
-		cannot use c (type "github.com/komish/vendor-demo-mod-3/pkg/colors".Color) 
-		as type "github.com/komish/vendor-demo-mod-2/pkg/vehicles/vendor/github.com/komish/vendor-demo-mod-3/pkg/colors".Color
-		in argument to vehicles.GetSedan
+```$
+
 ```
 
 The compile-time error is telling us that the function `GetSedan()`, which comes from the "vehicles" package made available in **vendor-demo-mod-2** does not accept a `Color` type as defined in the "colors" package in **vendor-demo-mod-3**. This is despite the fact that both **vendor-demo-mod-1** and **vendor-demo-mod-2**  imported the same package "colors" from **vendor-demo-mod-3**.
@@ -159,4 +155,3 @@ Approaching things this way has some issues. Effectively I've accessed module **
 In practice, I'd agree with the idea that avoiding vendoring in this scenario would be the best bet - but if you're in a situation where a module you do not control has already vendored dependencies, you might not have much in the way of choices.
 
 Either way, it has been an interesting behavior to observe. Perhaps finding some more-recent discussion on this topic is worthwhile.
-
