@@ -1,8 +1,8 @@
 ---
 title: Type Mismatches in Go Projects with Vendored Dependencies
-date: 2020-09-06
+date: 2020-10-06
 categories: [Code]
-tags: [Go]
+tags: [go, gomodules]
 description: Interesting behaviors observed when importing a library that uses a type from a vendored dependency.
 ---
 
@@ -132,8 +132,13 @@ Finally, the **vendor-demo-mod-1** repository is the equivalent of "My Program",
 
 As written above (which is also how it exists in the referenced repository), the program will execute without issue. However, if you comment out line 19 and uncomment line 16, we run into the error mentioned at the top of this article.
 
-```$
-
+```
+ $ go run .
+# github.com/komish/vendor-demo-mod-1
+./main.go:16:28: 
+ cannot use c (type "github.com/komish/vendor-demo-mod-3/pkg/colors".Color) 
+ as type "github.com/komish/vendor-demo-mod-2/pkg/vehicles/vendor/github.com/komish/vendor-demo-mod-3/pkg/colors".Color
+ in argument to vehicles.GetSedan
 ```
 
 The compile-time error is telling us that the function `GetSedan()`, which comes from the "vehicles" package made available in **vendor-demo-mod-2** does not accept a `Color` type as defined in the "colors" package in **vendor-demo-mod-3**. This is despite the fact that both **vendor-demo-mod-1** and **vendor-demo-mod-2**  imported the same package "colors" from **vendor-demo-mod-3**.
