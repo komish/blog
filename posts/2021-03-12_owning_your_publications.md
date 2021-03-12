@@ -1,5 +1,5 @@
 ---
-title: Owning your publications and the Indie Web
+title: Owning your Publications
 date: 2021-03-12
 categories: [self-hosting]
 tags: [indieweb, publishing, micro] 
