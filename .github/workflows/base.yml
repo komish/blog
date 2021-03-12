@@ -1,0 +1,13 @@
+name: Blog Actions
+on:
+  pull_request:
+    branches: [ master ]
+jobs:
+  trigger_rebuild:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Webhook
+      uses: distributhor/workflow-webhook
+      with:
+        url: "{{secret.WORKFLOW_TARGET}}/trigger"
+        json: '{ "secret-key": "${{secrets.WORKFLOW_TOKEN}}" }'
