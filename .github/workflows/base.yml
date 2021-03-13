@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: Webhook
       shell: bash
-      run: which curl
+      run: "curl -X POST -H \"Content-Type: application/json\" ${{ secrets.WORKFLOW_TARGET }} -d '{ \"secret-key\": \"${{ secrets.WORKFLOW_TOKEN }}\"}'"
