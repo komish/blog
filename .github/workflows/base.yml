@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Webhook
-      uses: distributhor/workflow-webhook
+      uses: distributhor/workflow-webhook@c99fa5ed646f4b2807a92f0ce4993c6826b518e4
       with:
-        url: "{{secret.WORKFLOW_TARGET}}/trigger"
-        json: '{ "secret-key": "${{secrets.WORKFLOW_TOKEN}}" }'
+        webhook_url: "{{secrets.WORKFLOW_TARGET}}"
+        data: '{ "secret-key": "${{secrets.WORKFLOW_TOKEN}}"}'
