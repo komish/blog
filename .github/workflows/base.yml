@@ -5,7 +5,7 @@ on:
   push:
     branches: [ master ]
 jobs:
-  trigger_rebuild:
+  rebuild_and_rollout:
     runs-on: ubuntu-latest
     steps:
     - name: Webhook
