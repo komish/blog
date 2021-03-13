@@ -4,6 +4,8 @@ on:
     branches: [ master ]
   push:
     branches: [ master ]
+  workflow_dispatch:
+    branches: [ master ]
 jobs:
   rebuild_and_rollout:
     runs-on: ubuntu-latest
