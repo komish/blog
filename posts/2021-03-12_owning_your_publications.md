@@ -1,7 +1,7 @@
 ---
 title: Owning your Publications
 date: 2021-03-12
-categories: [self-hosting]
+categories: [web]
 tags: [indieweb, publishing, micro] 
 description: Quick thoughts on using your own site as your main source of publication.
 ---
