@@ -11,5 +11,5 @@ jobs:
     - name: Webhook
       uses: distributhor/workflow-webhook@c99fa5ed646f4b2807a92f0ce4993c6826b518e4
       with:
-        webhook_url: "{{secrets.WORKFLOW_TARGET}}"
+        webhook_url: "${{secrets.WORKFLOW_TARGET}}"
         data: '{ "secret-key": "${{secrets.WORKFLOW_TOKEN}}"}'
