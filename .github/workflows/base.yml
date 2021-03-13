@@ -2,6 +2,8 @@ name: Manage Blog Publication
 on:
   pull_request:
     branches: [ master ]
+  push:
+    branches: [ master ]
 jobs:
   trigger_rebuild:
     runs-on: ubuntu-latest
