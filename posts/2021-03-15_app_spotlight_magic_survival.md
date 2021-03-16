@@ -1,5 +1,5 @@
 ---
-title: App Spotlight: Magic Survival
+title: "App Spotlight: Magic Survival"
 date: 2021-03-15
 categories: [Spotlight]
 tags: [gaming, android, spotlight]
