@@ -24,7 +24,7 @@ Survive as long as you can.
 
 ## Impressions
 
-The game is incredibly addictive, but also gives you a natural stopping point whenever you have succombed at the hands of your enemies. It's reminiscent of games like [Risk of Rain](https://www.riskofrain.com/), or the Binding of Isaac (https://bindingofisaac.com/). It features a sole goal of "surviving" and really executes the genre quite well.
+The game is incredibly addictive, but also gives you a natural stopping point whenever you have succombed at the hands of your enemies. It's reminiscent of games like [Risk of Rain](https://www.riskofrain.com/), or the [Binding of Isaac](https://bindingofisaac.com/). It features a sole goal of "surviving" and really executes the genre quite well.
 
 It seems to integrate with Google Play game saves as well, so your game and progress should be accessible across multiple devices (if that's your thing). 
 
