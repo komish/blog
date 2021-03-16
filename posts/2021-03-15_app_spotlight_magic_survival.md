@@ -16,9 +16,9 @@ Today's spotlight is on a game called [Magic Survival](https://play.google.com/s
 
 The basic gameplay is simple. Your character is displayed on the center of the screen. Your only control is a joystick which you use to move around the map.
 
-Your character automatically fires off shots hordes of enemies that spawn on the map as you run around. Your responsibility is to survive.
+Your character automatically fires off shots at hordes of enemies that spawn on the map as you run around. Your responsibility is to survive.
 
-As you run around the map and destroy enemies, you gain experience ports. With each advancement in level, you'll be presented with a selection of abilities that you can advance. The higher the level of your abilities, the more effective they are at destroying enemies. Build interesting combinations of abilities and items ("artifacts") found on your mission as you run around trying to stay alive.
+As you run around the map and destroy enemies, you gain experience points. With each advancement in level, you'll be presented with a selection of abilities that you can advance. The higher the level of your abilities, the more effective they are at destroying enemies. Build interesting combinations of abilities and items ("artifacts") found on your mission as you run around trying to stay alive.
 
 Survive as long as you can.
 
