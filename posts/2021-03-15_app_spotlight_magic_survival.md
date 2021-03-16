@@ -6,8 +6,6 @@ tags: [gaming, android, spotlight]
 description: A quick spotlight on a new "Risk of Rain" style survival game for your android phone.
 ---
 
-![magicsurvival](/images/magic-survival.jpg)
-
 I've decided to start featuring some new content themes on this blog. Aside from providing some variety to the existing content goals, I think it'll end up serving me nicely as a public bookmarking engine for when I inevitably uninstall apps or games just to forget about them entirely when I look for them in the future.
 
 I was an avid PC gamer in my younger days. These days, I have the bandwidth to support roughly a ten to fifteen minute contiguous session of gaming. Even better if I can do so from arbitrary locations, which almost exclusively rules out most PC gaming.
@@ -35,3 +33,5 @@ It seems to integrate with Google Play game saves as well, so your game and prog
 The game does feature ads, but the ads are non-intrusive and occur at the end of your run. In addition, it seems like you can exchange an ad-watch for continuing your run, but this violates my need for sessions to end pretty quickly after they start. And well... I failed to survive, so I'll take my loss gracefully when it happens the first time. 
 
 For those that are ad-averse, there is a USD 3.99 option to purchase 
+
+![magicsurvival](/images/magic-survival.jpg)
