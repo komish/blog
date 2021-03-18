@@ -8,15 +8,16 @@ description: Self-hosted applications can be security risks, but should that sto
 
 I came across this thread called [Self-Hosting
 Git](https://news.ycombinator.com/item?id=26490179) recently. I'm sure at least
-one reader finds that source ironic after my recent post on[RSS
+one reader finds that source ironic after my recent post on [RSS
 feeds](/posts/2021/03/13/active-consumption-of-articles-on-the-web/). 
 
 The article poses a somewhat-aggressive stance that self-hosting a git service
 (cgit) is easy, and should be considered by anyone as the better option to
 existing SaaS.
 
-What I found most interesting about the article is this point by user.
-[XorNot](https://news.ycombinator.com/user?id=XorNot)
+What I found most interesting about the article is this
+[point](https://news.ycombinator.com/item?id=26491508)
+by user [XorNot](https://news.ycombinator.com/user?id=XorNot):
 
 > Recently I just finished tearing down all my self-host services. Things facing
 > the public internet might be convenient, but heck if I want to face that
