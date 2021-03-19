@@ -40,7 +40,7 @@ Discussions](https://news.ycombinator.com/item?id=26493990)
 [Operating Systems: Three Easy Pieces Remzi H. Arpaci-Dusseau and Andrea C.
 Arpaci-Dusseau (University of
 Wisconsin-Madison)](https://pages.cs.wisc.edu/~remzi/OSTEP/) is a text focusing
-on core operator system concepts which has always been an interesting topic.
+on core operating system concepts which has always been an interesting topic.
 [Hacker News Discussion](https://news.ycombinator.com/item?id=26051386)
 
 [The Mediocre Programmer by Craig
