@@ -1,9 +1,8 @@
 ---
 title: Named Return Values and Naked Returns in Go
-date: 2021-03-25
+publishDate: 2021-03-26
 categories: [Thoughts]
 tags: [development, go, golang, micro]
-weight: 1
 description: A lesson I learned on naked returns in Go.
 ---
 
