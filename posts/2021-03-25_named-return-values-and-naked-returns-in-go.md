@@ -3,11 +3,12 @@ title: Named Return Values and Naked Returns in Go
 date: 2021-03-25
 categories: [Thoughts]
 tags: [development, go, golang, micro]
+weight: 1
 description: A lesson I learned on naked returns in Go.
 ---
 
 While working on a bug in a Go application that a friend discovered, I learned
-about the concept of a  [Naked Return](https://tour.golang.org/basics/7).
+about the concept of a [Naked Return](https://tour.golang.org/basics/7).
 
 I've been familiar with the concept of named return values, but not the concept
 of a naked return that goes along with it. A "naked return" refers to a return
