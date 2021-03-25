@@ -71,7 +71,7 @@ fascinating to try and parse.
 
 ## Everything Has a Ramp Up
 
-![issuetags](/images/contrib-to-open-source-issuetags.jpg)
+![issuetags](/images/contrib-to-open-source-issuetags.png)
 
 Issue trackers have a way of categorizing the work associated with implementing
 a given feature or fixing a given bug. A lot of times (especially during
