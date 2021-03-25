@@ -1,11 +1,11 @@
 name: Manage Blog Publication
 on:
-  pull_request:
-    branches: [ master ]
   push:
     branches: [ master ]
   workflow_dispatch:
     branches: [ master ]
+  schedule:
+    - cron:  '1 4 * * *'
 jobs:
   rebuild_and_rollout:
     runs-on: ubuntu-latest
