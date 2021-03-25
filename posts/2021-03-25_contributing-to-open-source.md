@@ -90,8 +90,11 @@ everything to determine how to move forward.
 
 Getting familiar with a code base of any size can be a challenge. Don’t allow
 yourself to get hung up on something being flagged as easy that then poses a bit
-of a challenge. The challenge is the fun. Guiding Lights for Future
-Contributions If I had to provide myself some advice to help guide my
+of a challenge. The challenge is the fun.
+
+## Guiding Lights for Future Contributions
+
+If I had to provide myself some advice to help guide my
 contributions to open source in the future, I’d suggest a couple of things.
 
 **Play with the application code base before you commit to fixing an issue.**
