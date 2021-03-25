@@ -2,7 +2,7 @@
 title: Contributing To Open Source Software
 date: 2021-03-25
 categories: [Thoughts]
-tags: [books, learning]
+tags: [development, open source]
 description: Reflections on the effort put forth to contribute to open source.
 ---
 
@@ -45,7 +45,9 @@ mischaracterization of their effort. No usage of time is free; all usage of time
 has a cost. These maintainers are choosing to spend some time working on a
 utility that they’re passionate about and make it available to the world. It’s
 important to recognize that this is time not spent with families or on other
-responsibilities. Transferring Knowledge (to yourself)  is Important
+responsibilities. 
+
+## Transferring Knowledge (to yourself) is Important
 
 ![notes](/images/contrib-to-open-source-notes.jpg)
 
@@ -65,7 +67,9 @@ out why something was broken.
 These notes also contained my broken understanding of various concepts as I
 performed research. I imagine if I were to go back now and read the log from top
 to bottom, I’d inevitably see an evolution of understanding that would be
-fascinating to try and parse. Everything Has a Ramp Up
+fascinating to try and parse.
+
+## Everything Has a Ramp Up
 
 ![issuetags](/images/contrib-to-open-source-issuetags.jpg)
 
@@ -90,7 +94,7 @@ of a challenge. The challenge is the fun. Guiding Lights for Future
 Contributions If I had to provide myself some advice to help guide my
 contributions to open source in the future, I’d suggest a couple of things.
 
-Play with the application code base before you commit to fixing an issue.
+**Play with the application code base before you commit to fixing an issue.**
 
 Playing with the application itself is already a requirement, and is therefore
 assumed.
@@ -112,7 +116,7 @@ can really start to become familiar with is valuable to them and to you.
 Work with a project that you’re interested in. Keep adding value to that
 project. When you’re ready to move on to the next, do so. Rinse and repeat.
 
-Do not be afraid to ask questions.
+**Do not be afraid to ask questions.**
 
 The maintainers of the project to which I contributed were incredibly valuable
 in this. The interactions, honestly, were a model of what fantastic
@@ -127,7 +131,7 @@ If you have questions, feel like you’re not following the right design or trai
 of thought, or just need to be refocused - ask questions and participate in
 discussion.
 
-Read and Re-read the problem statement.
+**Read and Re-read the problem statement.**
 
 This seems obvious. The reality is that I read the issue multiple times trying
 to get a foothold on the ask. I went in with a picture that I thought was
