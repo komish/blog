@@ -1,11 +1,12 @@
 name: Manage Blog Publication
 on:
-  push:
-    branches: [ master ]
+#   push:
+#     branches: [ master ]
   workflow_dispatch:
     branches: [ master ]
   schedule:
-    - cron:  '1 4 * * *'
+    - cron:  '1 0 * * *' # evening
+    - cron:  '1 7 * * *' # morning
 jobs:
   rebuild_and_rollout:
     runs-on: ubuntu-latest
