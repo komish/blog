@@ -57,6 +57,8 @@ verbose log entries on some days, but that's not a requirement. Some days are
 very sparse. What I put into the log book just depends on how busy I was that
 day.
 
+![analog](/images/there-and-back-knowledge-mgmt-analog.png) 
+
 I also have the [Analog
 system](https://ugmonk.com/blogs/journal/analog-the-simplest-productivity-system)
 that a friend purchased for me to try, and have been playing with managing daily
