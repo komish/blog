@@ -2,10 +2,9 @@
 title: There and Back Again: On Knowledge Management
 publishDate: 2021-03-31
 categories: [Thoughts]
-tags: [learning, "knowledge base"]
+tags: [learning, knowledge-base]
 description: Dumping all of the knowledge management techniques I committed to in 2019.
 ---
-
 
 I [wrote](/posts/2019/10/24/solving-the-knowledge-base-problem/) about my
 approach to knowledge management in 2019. I had switched into a new role with
