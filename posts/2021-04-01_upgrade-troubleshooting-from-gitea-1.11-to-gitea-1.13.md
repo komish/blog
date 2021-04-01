@@ -6,6 +6,8 @@ tags: [gitea, mariadb, self-hosted]
 description: Putting in some extra legwork to upgrade Gitea to version 1.13
 ---
 
+![giteasplash](/images/gitea-upgr-troubleshooting-splash.png)
+
 
 I run an internal [Gitea](https://gitea.io/en-us/) server for personal use. I
 initially started with the [Go Git Service](https://gogs.io/) ("gogs") and
