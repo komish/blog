@@ -1,5 +1,5 @@
 ---
-title: There and Back Again: On Knowledge Management
+title: There and Back Again - On Knowledge Management
 publishDate: 2021-03-31
 categories: [Thoughts]
 tags: [learning, knowledge-base]
