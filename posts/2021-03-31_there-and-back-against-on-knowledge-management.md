@@ -24,15 +24,15 @@ Org Mode for this to a certain extent as well, as I didn't want to split my
 attention to multiple tools.
 
 Unfortunately, all of those efforts fell by the way side after I went on a short
-vacation and returned with recollection of how to navigate my Org Mode notes.
-Sure, this is a personal issue, but I was unable to get to return and be
+vacation and returned with little to no recollection of how to navigate my Org Mode
+notes. Sure, this is a personal issue, but I was unable to get to return and be
 productive quickly. I had even spent time generating a cheatsheet of common
 workflows that I used in Org Mode, and that didn't help with ramping back up to
 a productive workflow. 
 
 Ultimately, I pitched Org Mode for knowledge and todo-list management. In the
 time after, I tried several tools
-([Zettlr](https://www.zettlr.com/),[Obsidian](https://obsidian.md/) ) with (at
+([Zettlr](https://www.zettlr.com/), [Obsidian](https://obsidian.md/)) with (at
 most) partial success in having them stick or be effective in my workflow. The
 effort of curating your notes just made keeping notes tedious, and I do believe
 that - at least to a certain extent - anything that's more significant than a
