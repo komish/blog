@@ -96,7 +96,7 @@ Unable to load replication GTID slave state from mysql.gtid_slave_pos: Table 'my
 This output was seen in the `show slave status\G` command on the replicant. Some
 more internet searching led me to the `mysql_upgrade` command, which should be
 executed on both nodes. Not knowing a clear order in which I should apply, I
-went ahead and stopped the replicant and ran `mysql_upgrad` on the master. No
+went ahead and stopped the replicant and ran `mysql_upgrade` on the master. No
 issues there, so I followed that with a restart of the Master. After running the
 upgrade logic, I started the replicant and still saw the error as mentioned
 above. I went ahead and ran the `mysql_upgrade` on the replicant without issue
