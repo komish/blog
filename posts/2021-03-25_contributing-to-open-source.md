@@ -9,8 +9,8 @@ description: Reflections on the effort put forth to contribute to open source.
 ![splash](/images/contrib-to-open-source-splash.jpg)
 
 I’ve just submitted a [pull request](https://github.com/lxc/lxd/pull/8592) to a
-[major open source project](https://github.com/lxc/lxd). Technically it hasn’t
-merged, so there’s still time for me to become a liar! 
+[major open source project](https://github.com/lxc/lxd). [Edit: it merged!] ~Technically it hasn’t
+merged, so there’s still time for me to become a liar!~
 
 That might read as a bit of an odd statement given that my current `$DayJob` has
 me working in the open source space frequently and constantly.
