@@ -2,7 +2,7 @@
 title: Using the Solus Operating System
 publishDate: 2021-04-03
 categories: [Thoughts]
-tags: [solus, desktop-linux, operator-systems]
+tags: [solus, desktop-linux, operating-systems]
 description: My experiences using the Solus operating system.
 ---
 
