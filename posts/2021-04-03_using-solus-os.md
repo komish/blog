@@ -8,7 +8,7 @@ description: My experiences using the Solus operating system.
 
 ![solussplash](/images/solus-website.png)
 
-I've been giving the [Solus](https://getsol.us/home/) operator system a spin.
+I've been giving the [Solus](https://getsol.us/home/) operating system a spin.
 Here's a quick run down of how that's gone for me.
 
 Solus is an operating system solely focuses on Desktop use cases. It's a Linux
