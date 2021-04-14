@@ -9,7 +9,7 @@ description: 'Highly recommended reading for "imposters" in Tech.'
 If the description of this post caught your attention, then you likely need
 to read this book!
 
-I've just finished reading [The Mediocore
+I've just finished reading [The Mediocre
 Programmer](http://themediocreprogrammer.com/build/html/the_mediocre_programmer.html)
 by [Craig Maloney](http://decafbad.net/), and I was surprised by how much I felt
 like I needed this book even today.
