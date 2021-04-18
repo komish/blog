@@ -1,9 +1,9 @@
 ---
-title: 'An Essential Extension for VS Code: Rewrap'
+title: "An Essential Extension for VS Code: Rewrap"
 publishDate: 2021-04-17
 categories: [Spotlight]
 tags: [vs-code, rewrap, extension, micro]
-description: 'A tool I didn't know I needed until I started using it.'
+description: "A tool I didn't know I needed until I started using it."
 ---
 
 If you commonly use Visual Studio Code to manipulate text documents, such as
