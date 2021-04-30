@@ -1,6 +1,7 @@
 ---
 title: Reinforcing Computing Fundamentals
 date: 2021-03-19
+lastmod: 2021-04-30
 categories: [Spotlight]
 tags: [books, learning]
 description: Bookmarking a few texts on computing fundamentals that I aim to read in the near future.
@@ -55,3 +56,8 @@ text. [Hacker New Discussion](https://news.ycombinator.com/item?id=26051600).
 That's it! Three less sticky notes on the stack. And as an aside, for whatever
 reason I kept wanting to type "Hackery News". That's a great name. Ycombinator
 should pick that up.
+
+[UPDATE 2021-04-30] I came across this text which reminds me of the Operating 
+Systems textbook above, and I wanted to mark it as something interested to read
+in the future as well.
+[Computer Science from the Bottom Up](https://www.bottomupcs.com/)
